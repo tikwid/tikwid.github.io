@@ -9,5 +9,7 @@ for(var i = 0; i < pages.length; i++) {
   $("#content").empty().load(pages[i] + ".html #content").fadeIn("slow");
   });
   
+  console.log(pages[i]);
+  
 }
 
