@@ -36,11 +36,13 @@ h1 {
     .left {
          position: absolute;
          width: 18.75em;
+         margin-left: 2em;
     }
     
     .left ul {
         list-style-type: none;
         line-height: 2em;
+        padding-left: 0px;
     }
     
     .right {
