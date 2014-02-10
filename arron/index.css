@@ -16,7 +16,7 @@ h1 {
 }
 
 /* lil screens */
-@media all and (max-width: 47.5em) {
+@media screen and (max-width: 600px) {
     
     /* horizontal links */
     
@@ -32,7 +32,7 @@ h1 {
 }
 
 /* big screens */ 
-@media screen and (min-width: 47.5em) {
+@media all and (min-width: 600px) {
     
     .left {
          position: absolute;
